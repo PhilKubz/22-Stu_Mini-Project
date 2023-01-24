@@ -9,13 +9,15 @@ body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #FDF8F5;
-  color: #4F4846;
+  background-color: #b5d8eb;
+  color: #a67568;
 }
 
 h1,
 h2 {
   margin: 20px;
+  color: #000;
+  font-style: italic;
 }
 
 main {
@@ -26,6 +28,7 @@ li {
   display: inline;
   padding: 0px 20px;
   text-decoration: none;
+  color: #000
 }
 
 a {
@@ -38,7 +41,7 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: #266150;
+  background-color: #2b7dbc;
 }
 
 header {
@@ -55,7 +58,7 @@ footer {
 }
 
 figure {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 img {
@@ -88,7 +91,7 @@ input,
 textarea {
   box-sizing: border-box;
   width: 300px;
-  border: 1px solid #4F4846;
+  border: 1px solid #eae2e0;
 }
 
 textarea {
@@ -106,6 +109,7 @@ button {
 /* Class Selectors */
 .text-center {
   text-align: center;
+  color: #000;
 }
 
 .text-right {
